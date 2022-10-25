@@ -1,0 +1,115 @@
+#welc {
+    font-family: Capriola;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 120px;
+    color: white;
+
+}
+
+#navstyle {
+    text-decoration: none;
+    margin: 5%;
+    color: #DEA5A4;
+    font-family:Capriola ;
+    
+}
+
+#ref1 {
+    margin-top: 10px;
+    border-radius: 20px;
+    font-family: Capriola;
+    color: white;
+    font-size: small;
+    background-color: #DEA5A4;
+    border: none;
+
+}
+
+#par1 {
+    font-family: Capriola;
+    font-size: x-small;
+    color: grey;
+}
+
+#linkstyle {
+    font-family: Capriola;
+    font-size: x-small;
+    color: #DEA5A4;
+}
+
+#post-title {
+    font-size: small;
+    font-family: Capriola;
+    text-align: left;
+}
+
+
+#f1 {
+    text-align: center;
+    margin-top: 1%;
+    font-family: Capriola;
+    color: #DEA5A4;
+    font-size: small;
+}
+
+#titlestyle {
+    font-family: Capriola;
+    font-size: small;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #DEA5A4;
+}
+
+#titlestyle1 {
+    font-family: Capriola;
+    font-size: medium;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #DEA5A4;
+    text-align: center;
+}
+
+#postnum {
+    font-family: Capriola;
+    color: grey;
+    font-size: x-small;
+    padding-left: 40%;
+}
+
+#latest-post-title{
+    font-size: x-small;
+    font-family: Capriola;
+    padding-left: 30px;
+}
+
+#h1title{
+    font-family: Capriola;
+    padding: 10px;
+    font-size: x-large;
+    color: #DEA5A4;
+}
+
+#art_style{
+    font-family: Capriola;
+    font-size: small;
+}
+
+#h2_style{
+    font-family: Capriola;
+    font-size: large;
+    color: #DEA5A4;
+}
+
+#h3_style{
+    font-family: Capriola;
+    font-size: small;
+    color: #DEA5A4;
+}
+
+#text_av_style{
+    font-family: Capriola;
+    font-size: x-small;
+    color: grey; 
+    text-align: center;
+}

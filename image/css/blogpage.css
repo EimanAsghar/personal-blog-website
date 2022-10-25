@@ -1,0 +1,103 @@
+/* Anything smaller than first breakpoint 600px */
+.container {
+    display: grid;
+    grid-template-rows: 340px 2200px 70px;
+    grid-template-columns: 200px 200px;
+    grid-template-areas:
+        "gl gl gl gl gl gl"
+        "pr pr pr pr pr pr"
+        "ft ft ft ft ft ft";
+}
+
+/* Medium Screens */
+@media (min-width: 600px) and (max-width:900px) {
+    .container {
+        display: grid;
+        grid-template-rows: 320px 1500px 60px;
+        grid-template-columns: 200px 200px;
+        grid-template-areas:
+            "gl gl gl gl gl gl"
+            "pr pr pr pr pr pr"
+            "ft ft ft ft ft ft";
+    }
+}
+
+/* Large Screens */
+@media (min-width:901px) {
+    .container {
+        display: grid;
+        grid-template-rows: 300px 700px 50px;
+        grid-template-columns: 200px 200px;
+        grid-template-areas:
+            "gl gl gl gl gl gl"
+            "pr pr pr pr pr pr"
+            "ft ft ft ft ft ft";
+    }
+
+}
+
+/**
+.container {
+    display: grid;
+    grid-template-rows: 300px 700px 50px;
+    grid-template-columns: 200px 200px;
+    grid-template-areas:
+        "gl gl gl gl gl gl"
+        "pr pr pr pr pr pr"
+        "ft ft ft ft ft ft";
+}**/
+
+
+
+
+.gallerey {
+    grid-area: gl;
+    background-color: #FFDCDB
+}
+
+.posts-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(244, 242, 242);
+    grid-area: pr;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: white;
+    grid-area: ft;
+}
+
+#iteam {
+    background-color: white;
+    width: 300px;
+    height: 290px;
+    margin: 30px;
+    padding: 10px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    flex: 50%;
+
+}
+
+#image_post {
+    width: 200px;
+    height: 150px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+}
+
+#icon-header {
+    width: 50px;
+    height: 50px;
+
+    
+}
+
+nav{
+    text-align: center;
+}
